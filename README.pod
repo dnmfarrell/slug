@@ -1,0 +1,11 @@
+=head2 Slug
+
+Slug is a lightweight blogging engine built in Perl, using L<Mojolicious>.
+
+=cut
+
+=head2 Authors
+
+David Farrell, brian d foy, (c) 2015
+
+=cut

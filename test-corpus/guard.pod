@@ -1,0 +1,144 @@
+=encoding utf8
+
+=head0 Defend your code with Guard
+
+=for author brian d foy
+
+=for author David Farrell
+
+=for subtitle Guard helps you protect against unexpected changes to values
+
+=for publish_date 2015-05-31
+
+=begin abstract
+
+I can't always trust my subroutines to leave the world in the same way that they found it. Perl has some features to help with this, but the Guard module goes much further.
+
+=end abstract
+
+I can't always trust my subroutines to leave the world in the same way that they found it. Perl has some features to help with this, but the M<Guard> module goes much further.
+
+Consider the case where I want to change the current working directory temporarily in my subroutine. If I'm not careful, the rest of the ends up in an unexpected directory since K<chdir> has process-level effect:
+
+  sub do_some_work {
+    state $dir = '/usr/local/etc';
+    chdir $dir or die "Could not change to $dir! $!";
+  
+    ...; # do some work
+    }
+
+Since I don't change back to the starting directory, after I call C<do_some_work>, the rest of the program uses F</usr/local/etc> as the base to resolve relative paths.
+
+If I were careful, I would have done the work to save the current working directory before I changed it, and I would have changed back to that directory. The C<getcwd> from the M<Cwd> module from the Standard Library:
+
+  use Cwd qw(getcwd);
+
+  sub do_some_work {
+    state $dir = '/usr/local/etc';
+  
+    my $old_directory = getcwd();
+    chdir $dir or die "Could not change to $dir! $!";
+  
+    ...; # do some work
+  
+    chdir $old_directory 
+      or die "Could not change back to $old_directory! $!";
+    
+    return $value;
+    }
+
+That's too much work. I have long wished that the K<chdir> would return the old directory like K<select> returns the current default filehandle. Instead, I use a module with an imported subroutine.
+
+I also have to call another K<chdir> when I'm done, and I probably have to add some extra code to return the right value since I can't easily organize the code to use Perl's nifty last-evaluated-expression idiom (although U<Perl> 5.20 optimizes return at the end of a subroutine|http://www.effectiveperlprogramming.com/2014/06/perl-5-20-optimizes-return-at-the-end-of-a-subroutine/). It offends my sense of code beauty that the two K<chdir>s are apart from each other when I want to keep the logical parts close to each other. I'd like all of the code to handle the current working directory next to each other.
+
+Enter the M<Guard> module that lets me define blocks of code that run at the end of the subroutine. Somewhere in the scope I create a guard with C<scope_guard> and that guard runs at scope exit:
+
+  use v5.10;
+
+  use Cwd qw(getcwd);
+  use Guard;
+
+  chdir '/etc' or die "Could not start at /etc: $!";
+  my $starting_dir = getcwd();
+
+  do_some_work();
+
+  say "Finally, the directory is ", getcwd();
+
+
+  sub do_some_work {
+    state $dir = '/usr/local/etc';
+  
+    my $old_directory = getcwd();
+    scope_guard { 
+      say "Guard thinks old directory is $old_directory";
+      chdir $old_directory;
+      };
+    chdir $dir or die "Could not change to $dir! $!";
+  
+    say "At the end of do_some_work(), the directory is ", getcwd();
+    }
+
+The output shows which each part thinks the current working directory should be:
+
+=begin output
+
+  At the end of do_some_work(), the directory is /usr/local/etc
+  Guard thinks old directory is /etc
+  Finally, the directory is /etc
+
+=end output
+
+This is still a little bit ugly. The C<scope_guard> only takes a block or C<sub {}> argument, so I can't refactor its argument into a subroutine. This doesn't work: 
+
+    scope_guard make_sub_ref();  # wrong sort of argument
+
+I can make a guard in a variable, though, to get around this. Instead of doing its work at scope exit, the variable guard does its work when it's cleaned up (which we might do on our own before the end of its scope). In this example, I use L<Perl v5.20 subroutine signatures|http://perltricks.com/article/72/2014/2/24/Perl-levels-up-with-native-subroutine-signatures> just because I can (they are really nice even if they are experimental):
+
+  use v5.20;
+  use feature qw(signatures);
+  no warnings qw(experimental::signatures);
+
+  use Cwd qw(getcwd);
+  use Guard;
+
+  chdir '/etc' or die "Could not start at /etc: $!";
+  my $starting_dir = getcwd();
+
+  do_some_work();
+
+  say "Finally, the directory is ", getcwd();
+
+
+  sub do_some_work {
+    state $dir = '/usr/local/etc';
+  
+    my $guard = make_guard( getcwd() );
+    chdir $dir or die "Could not change to $dir! $!";
+  
+    say "At the end of do_some_work(), the directory is ", getcwd();
+    }
+
+  sub make_guard ( $old_directory ) {
+    return guard {
+      say "Guard thinks old directory is $old_directory";
+      chdir $old_directory;  
+      };
+    }
+
+Now the code in C<do_some_work> is a bit nicer and I can reuse this guard in other subroutines.
+
+Here's a bonus trick and one of the reasons I wanted to show the subroutine signatures. I can declare a default value for a subroutine argument. If I don't specify an argument to C<make_guard>, Perl fills it in with the value of C<getcwd>:
+
+  sub make_guard ( $old_directory = getcwd() ) {
+    return guard {
+      say "Guard thinks old directory is $old_directory";
+      chdir $old_directory;  
+      };
+    }
+
+With the default value, I can simplify my call to C<make_guard> while still having the flexibility to supply an argument:
+
+  my $guard = make_guard();
+
+There are other tricks I can employ with M<Guard>. I can define multiple C<scope_guard>s. In that case, they execute in reverse order of their definition (like C<END> blocks). With a guard object, I can cancel the guard if I decide I don't want it any longer.
