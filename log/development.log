@@ -1,0 +1,216 @@
+[Fri Apr 17 00:57:57 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Fri Apr 17 00:58:12 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Fri Apr 17 00:58:21 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Fri Apr 17 01:03:26 2015] [info] Listening at "http://*:3000"
+[Fri Apr 17 01:03:34 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:03:34 2015] [debug] GET "/"
+[Fri Apr 17 01:03:34 2015] [error] Global symbol "$article_dir" requires explicit package name at lib/Slug/Controller/Article.pm line 6.
+Compilation failed in require at (eval 43) line 1.
+
+[Fri Apr 17 01:03:34 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Apr 17 01:03:34 2015] [debug] Template "exception.html.ep" not found
+[Fri Apr 17 01:03:34 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:03:34 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:03:34 2015] [debug] 500 Internal Server Error (0.041004s, 24.388/s)
+[Fri Apr 17 01:04:17 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:04:17 2015] [debug] GET "/"
+[Fri Apr 17 01:04:17 2015] [error] Can't locate object method "config" via package "app" (perhaps you forgot to load "app"?) at lib/Slug/Controller/Article.pm line 5.
+Compilation failed in require at (eval 44) line 1.
+
+[Fri Apr 17 01:04:17 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Apr 17 01:04:17 2015] [debug] Template "exception.html.ep" not found
+[Fri Apr 17 01:04:17 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:04:17 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:04:17 2015] [debug] 500 Internal Server Error (0.041827s, 23.908/s)
+[Fri Apr 17 01:06:28 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:06:28 2015] [debug] GET "/"
+[Fri Apr 17 01:06:28 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:06:28 2015] [error] Slug::Model::FilePath->new() requires a readable and executable directory path
+
+[Fri Apr 17 01:06:28 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Apr 17 01:06:28 2015] [debug] Template "exception.html.ep" not found
+[Fri Apr 17 01:06:28 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:06:28 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:06:28 2015] [debug] 500 Internal Server Error (0.041667s, 24.000/s)
+[Fri Apr 17 01:07:10 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:07:10 2015] [debug] GET "/"
+[Fri Apr 17 01:07:10 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:07:10 2015] [error] Slug::Model::FilePath->new() requires a readable and executable directory path
+
+[Fri Apr 17 01:07:10 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Apr 17 01:07:10 2015] [debug] Template "exception.html.ep" not found
+[Fri Apr 17 01:07:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:07:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:07:10 2015] [debug] 500 Internal Server Error (0.043315s, 23.087/s)
+[Fri Apr 17 01:09:03 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:09:03 2015] [debug] GET "/"
+[Fri Apr 17 01:09:03 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:09:03 2015] [error] Can't use string ("Slug") as a HASH ref while "strict refs" in use at /home/dfarrell/.plenv/versions/5.20.2/lib/perl5/site_perl/5.20.2/Mojo/Util.pm line 429.
+
+[Fri Apr 17 01:09:03 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Apr 17 01:09:03 2015] [debug] Template "exception.html.ep" not found
+[Fri Apr 17 01:09:03 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:09:03 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:09:03 2015] [debug] 500 Internal Server Error (0.044936s, 22.254/s)
+[Fri Apr 17 01:11:31 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:11:31 2015] [debug] GET "/"
+[Fri Apr 17 01:11:31 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:11:31 2015] [debug] Template "article/articles.html.ep" not found
+[Fri Apr 17 01:11:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr 17 01:11:31 2015] [debug] Template "not_found.html.ep" not found
+[Fri Apr 17 01:11:31 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:11:31 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:11:31 2015] [debug] 404 Not Found (0.040776s, 24.524/s)
+[Fri Apr 17 01:16:33 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:16:33 2015] [debug] GET "/"
+[Fri Apr 17 01:16:33 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:16:33 2015] [debug] Template "article/articles.html.ep" not found
+[Fri Apr 17 01:16:33 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr 17 01:16:33 2015] [debug] Template "not_found.html.ep" not found
+[Fri Apr 17 01:16:33 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:16:33 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:16:33 2015] [debug] 404 Not Found (0.042287s, 23.648/s)
+[Fri Apr 17 01:17:26 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:17:26 2015] [debug] GET "/"
+[Fri Apr 17 01:17:26 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:17:26 2015] [debug] Template "article/articles.html.ep" not found
+[Fri Apr 17 01:17:26 2015] [debug] Nothing has been rendered, expecting delayed response
+[Fri Apr 17 01:17:41 2015] [debug] Inactivity timeout
+[Fri Apr 17 01:17:41 2015] [debug] GET "/"
+[Fri Apr 17 01:17:41 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:17:41 2015] [debug] Template "article/articles.html.ep" not found
+[Fri Apr 17 01:17:41 2015] [debug] Nothing has been rendered, expecting delayed response
+[Fri Apr 17 01:17:56 2015] [debug] Inactivity timeout
+[Fri Apr 17 01:17:56 2015] [debug] GET "/"
+[Fri Apr 17 01:17:56 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:17:56 2015] [debug] Template "article/articles.html.ep" not found
+[Fri Apr 17 01:17:56 2015] [debug] Nothing has been rendered, expecting delayed response
+[Fri Apr 17 01:18:11 2015] [debug] Inactivity timeout
+[Fri Apr 17 01:18:16 2015] [debug] GET "/"
+[Fri Apr 17 01:18:16 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:18:16 2015] [debug] Template "article/articles.html.ep" not found
+[Fri Apr 17 01:18:16 2015] [debug] Nothing has been rendered, expecting delayed response
+[Fri Apr 17 01:18:31 2015] [debug] Inactivity timeout
+[Fri Apr 17 01:18:49 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:18:49 2015] [debug] GET "/"
+[Fri Apr 17 01:18:49 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:18:49 2015] [debug] Template "articles.html.ep.html.ep" not found
+[Fri Apr 17 01:18:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr 17 01:18:49 2015] [debug] Template "not_found.html.ep" not found
+[Fri Apr 17 01:18:49 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:18:49 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:18:49 2015] [debug] 404 Not Found (0.052941s, 18.889/s)
+[Fri Apr 17 01:19:47 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:19:47 2015] [debug] GET "/"
+[Fri Apr 17 01:19:47 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:19:47 2015] [debug] Template "articles.html.ep.txt.epl" not found
+[Fri Apr 17 01:19:47 2015] [debug] Template "not_found.development.txt.ep" not found
+[Fri Apr 17 01:19:47 2015] [debug] Template "not_found.txt.ep" not found
+[Fri Apr 17 01:19:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr 17 01:19:47 2015] [debug] Template "not_found.html.ep" not found
+[Fri Apr 17 01:19:47 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:19:47 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:19:47 2015] [debug] 404 Not Found (0.055482s, 18.024/s)
+[Fri Apr 17 01:20:02 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:20:02 2015] [debug] GET "/"
+[Fri Apr 17 01:20:02 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:20:02 2015] [debug] Template "template/articles.html.ep.txt.epl" not found
+[Fri Apr 17 01:20:02 2015] [debug] Template "not_found.development.txt.ep" not found
+[Fri Apr 17 01:20:02 2015] [debug] Template "not_found.txt.ep" not found
+[Fri Apr 17 01:20:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr 17 01:20:02 2015] [debug] Template "not_found.html.ep" not found
+[Fri Apr 17 01:20:02 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:20:02 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:20:02 2015] [debug] 404 Not Found (0.055050s, 18.165/s)
+[Fri Apr 17 01:20:47 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:20:47 2015] [debug] GET "/"
+[Fri Apr 17 01:20:47 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:20:47 2015] [debug] Template "template/articles.txt.ep" not found
+[Fri Apr 17 01:20:47 2015] [debug] Template "not_found.development.txt.ep" not found
+[Fri Apr 17 01:20:47 2015] [debug] Template "not_found.txt.ep" not found
+[Fri Apr 17 01:20:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr 17 01:20:47 2015] [debug] Template "not_found.html.ep" not found
+[Fri Apr 17 01:20:47 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:20:47 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:20:47 2015] [debug] 404 Not Found (0.054818s, 18.242/s)
+[Fri Apr 17 01:21:12 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:21:12 2015] [debug] GET "/"
+[Fri Apr 17 01:21:12 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:21:12 2015] [debug] Template "template/articles.html.ep" not found
+[Fri Apr 17 01:21:12 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr 17 01:21:12 2015] [debug] Template "not_found.html.ep" not found
+[Fri Apr 17 01:21:12 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:21:12 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:21:12 2015] [debug] 404 Not Found (0.054308s, 18.413/s)
+[Fri Apr 17 01:21:33 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:21:33 2015] [debug] GET "/"
+[Fri Apr 17 01:21:33 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:21:33 2015] [debug] Template "templates/articles.html.ep" not found
+[Fri Apr 17 01:21:33 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr 17 01:21:33 2015] [debug] Template "not_found.html.ep" not found
+[Fri Apr 17 01:21:33 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:21:33 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:21:33 2015] [debug] 404 Not Found (0.053967s, 18.530/s)
+[Fri Apr 17 01:22:13 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:22:13 2015] [debug] GET "/"
+[Fri Apr 17 01:22:13 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:22:13 2015] [debug] Rendering template "articles.html.ep"
+[Fri Apr 17 01:22:13 2015] [error] syntax error at template articles.html.ep line 5, near "->title $_O "
+1: % layout 'default';
+2: % title 'Articles';
+3: 
+4: % for my $article ($articles) {
+5:   <% $article->title %>
+6: % }
+
+[Fri Apr 17 01:22:13 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Apr 17 01:22:13 2015] [debug] Template "exception.html.ep" not found
+[Fri Apr 17 01:22:13 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:22:13 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:22:13 2015] [debug] 500 Internal Server Error (0.056584s, 17.673/s)
+[Fri Apr 17 01:24:17 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:24:17 2015] [debug] GET "/"
+[Fri Apr 17 01:24:17 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:24:17 2015] [debug] Rendering template "articles.html.ep"
+[Fri Apr 17 01:24:17 2015] [error] Can't call method "title" on unblessed reference at template articles.html.ep line 5.
+1: % layout 'default';
+2: % title 'Articles';
+3: 
+4: % for my $article ($articles) {
+5:   <%= $article->title %>
+6: % }
+
+[Fri Apr 17 01:24:17 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Apr 17 01:24:17 2015] [debug] Template "exception.html.ep" not found
+[Fri Apr 17 01:24:17 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:24:17 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:24:17 2015] [debug] 500 Internal Server Error (0.056941s, 17.562/s)
+[Fri Apr 17 01:24:33 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:24:33 2015] [debug] GET "/"
+[Fri Apr 17 01:24:33 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:24:33 2015] [debug] Rendering template "articles.html.ep"
+[Fri Apr 17 01:24:33 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Apr 17 01:24:33 2015] [debug] 200 OK (0.034422s, 29.051/s)
+[Fri Apr 17 01:24:49 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:24:49 2015] [debug] GET "/"
+[Fri Apr 17 01:24:49 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:24:49 2015] [debug] Rendering template "articles.html.ep"
+[Fri Apr 17 01:24:49 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Apr 17 01:24:49 2015] [debug] 200 OK (0.035034s, 28.544/s)
+[Fri Apr 17 01:24:56 2015] [debug] Your secret passphrase needs to be changed
+[Fri Apr 17 01:24:56 2015] [debug] GET "/"
+[Fri Apr 17 01:24:56 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Fri Apr 17 01:24:56 2015] [debug] Rendering template "articles.html.ep"
+[Fri Apr 17 01:24:56 2015] [error] syntax error at template articles.html.ep line 5, near "->title $_O "
+1: % layout 'default';
+2: % title 'Articles';
+3: 
+4: % for my $article (@$articles) {
+5:   <h2><% $article->title %></h2>
+6: % }
+
+[Fri Apr 17 01:24:56 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Apr 17 01:24:56 2015] [debug] Template "exception.html.ep" not found
+[Fri Apr 17 01:24:56 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr 17 01:24:56 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr 17 01:24:56 2015] [debug] 500 Internal Server Error (0.055615s, 17.981/s)
