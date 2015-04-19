@@ -2,19 +2,21 @@
 
 =head0 Defend your code with Guard
 
-=for author brian d foy
+=begin author
 
-=for author David Farrell
+=for author_name brian d foy
+
+=for author_bio L<brian d foy|http://www.pair.com/~comdog/> is a Perl trainer and writer. He's the author of Mastering Perl and co-author of Programming Perl, Learning Perl, Intermediate Perl and Effective Perl Programming.
+
+=for author_picture /static/images/brian_d_foy.png
+
+=end author
 
 =for subtitle Guard helps you protect against unexpected changes to values
 
 =for publish_date 2015-05-31
 
-=begin abstract
-
-I can't always trust my subroutines to leave the world in the same way that they found it. Perl has some features to help with this, but the Guard module goes much further.
-
-=end abstract
+=for abstract I can't always trust my subroutines to leave the world in the same way that they found it. Perl has some features to help with this, but the Guard module goes much further.
 
 I can't always trust my subroutines to leave the world in the same way that they found it. Perl has some features to help with this, but the M<Guard> module goes much further.
 

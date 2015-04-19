@@ -214,3 +214,258 @@ Compilation failed in require at (eval 44) line 1.
 [Fri Apr 17 01:24:56 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
 [Fri Apr 17 01:24:56 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
 [Fri Apr 17 01:24:56 2015] [debug] 500 Internal Server Error (0.055615s, 17.981/s)
+[Sat Apr 18 10:21:04 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 10:23:49 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 10:24:00 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 10:24:00 2015] [debug] GET "/"
+[Sat Apr 18 10:24:00 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 10:24:00 2015] [debug] Rendering template "articles.html.ep"
+[Sat Apr 18 10:24:00 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat Apr 18 10:24:00 2015] [debug] 200 OK (0.045762s, 21.852/s)
+[Sat Apr 18 13:19:53 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:20:12 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:20:18 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:20:23 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:20:30 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 13:20:30 2015] [debug] GET "/"
+[Sat Apr 18 13:20:30 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 13:20:30 2015] [error] Can't locate object method "model" via package "Slug::Controller::Article" at /home/dfarrell/.plenv/versions/5.20.2/lib/perl5/site_perl/5.20.2/Mojolicious.pm line 120.
+
+[Sat Apr 18 13:20:30 2015] [debug] Template "exception.development.html.ep" not found
+[Sat Apr 18 13:20:30 2015] [debug] Template "exception.html.ep" not found
+[Sat Apr 18 13:20:30 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat Apr 18 13:20:30 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat Apr 18 13:20:30 2015] [debug] 500 Internal Server Error (0.024126s, 41.449/s)
+[Sat Apr 18 13:21:47 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:21:53 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:21:58 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 13:21:58 2015] [debug] GET "/"
+[Sat Apr 18 13:21:58 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 13:21:58 2015] [debug] Rendering template "articles.html.ep"
+[Sat Apr 18 13:21:58 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat Apr 18 13:21:58 2015] [debug] 200 OK (0.015657s, 63.869/s)
+[Sat Apr 18 13:22:33 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:22:39 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:25:45 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:26:25 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:27:04 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:27:20 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 13:27:20 2015] [debug] GET "/"
+[Sat Apr 18 13:27:20 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 13:27:20 2015] [debug] 200 OK (0.013589s, 73.589/s)
+[Sat Apr 18 13:28:22 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:28:24 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 13:28:24 2015] [debug] GET "/"
+[Sat Apr 18 13:28:24 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 13:28:24 2015] [debug] 200 OK (0.013595s, 73.556/s)
+[Sat Apr 18 13:29:32 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:40:05 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:40:22 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 13:40:22 2015] [debug] GET "/"
+[Sat Apr 18 13:40:22 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 13:40:22 2015] [debug] 200 OK (0.014543s, 68.762/s)
+[Sat Apr 18 13:42:14 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:42:16 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:42:28 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:42:33 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 13:42:33 2015] [debug] GET "/"
+[Sat Apr 18 13:42:33 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 13:42:33 2015] [debug] 200 OK (0.015656s, 63.873/s)
+[Sat Apr 18 13:42:55 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:42:56 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 13:42:56 2015] [debug] GET "/"
+[Sat Apr 18 13:42:56 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 13:42:56 2015] [debug] 200 OK (0.015925s, 62.794/s)
+[Sat Apr 18 13:43:02 2015] [debug] GET "/"
+[Sat Apr 18 13:43:02 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 13:43:02 2015] [debug] 200 OK (0.001717s, 582.411/s)
+[Sat Apr 18 13:43:03 2015] [debug] GET "/"
+[Sat Apr 18 13:43:03 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 13:43:03 2015] [debug] 200 OK (0.001102s, 907.441/s)
+[Sat Apr 18 13:43:07 2015] [debug] GET "/"
+[Sat Apr 18 13:43:07 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 13:43:07 2015] [debug] 200 OK (0.001702s, 587.544/s)
+[Sat Apr 18 13:43:11 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:43:23 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:43:26 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:54:26 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 13:54:26 2015] [debug] GET "/"
+[Sat Apr 18 13:54:26 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 13:54:26 2015] [debug] 200 OK (0.014763s, 67.737/s)
+[Sat Apr 18 13:56:29 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:56:46 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:57:32 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:57:34 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 13:57:44 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 14:04:59 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 14:05:05 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 14:05:05 2015] [debug] GET "/"
+[Sat Apr 18 14:05:05 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 14:05:05 2015] [debug] 200 OK (0.017809s, 56.151/s)
+[Sat Apr 18 14:05:36 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 14:06:06 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 14:06:33 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 14:06:35 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 14:07:28 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 14:07:44 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 14:07:46 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 14:08:27 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 14:08:30 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 14:08:30 2015] [debug] GET "/"
+[Sat Apr 18 14:08:30 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 14:08:30 2015] [debug] 200 OK (0.015010s, 66.622/s)
+[Sat Apr 18 14:47:48 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 14:47:56 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 14:47:56 2015] [debug] GET "/"
+[Sat Apr 18 14:47:56 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 14:47:56 2015] [debug] 200 OK (0.018329s, 54.558/s)
+[Sat Apr 18 23:45:37 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:45:43 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 23:45:43 2015] [debug] GET "/"
+[Sat Apr 18 23:45:43 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 23:45:43 2015] [debug] 200 OK (0.017737s, 56.379/s)
+[Sat Apr 18 23:45:59 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:46:24 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:47:22 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:47:24 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:47:27 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:47:29 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:47:40 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:55:25 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:55:27 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:55:40 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:55:43 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 23:55:43 2015] [debug] GET "/"
+[Sat Apr 18 23:55:43 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 23:55:43 2015] [debug] 200 OK (0.015418s, 64.859/s)
+[Sat Apr 18 23:56:47 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:56:53 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sat Apr 18 23:56:55 2015] [debug] Your secret passphrase needs to be changed
+[Sat Apr 18 23:56:55 2015] [debug] GET "/"
+[Sat Apr 18 23:56:55 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sat Apr 18 23:56:55 2015] [debug] 200 OK (0.015731s, 63.569/s)
+[Sun Apr 19 00:03:35 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:03:41 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:03:41 2015] [debug] GET "/"
+[Sun Apr 19 00:03:41 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sun Apr 19 00:03:41 2015] [debug] 200 OK (0.049022s, 20.399/s)
+[Sun Apr 19 00:05:03 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:05:06 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:05:06 2015] [debug] GET "/"
+[Sun Apr 19 00:05:06 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sun Apr 19 00:05:06 2015] [debug] 200 OK (0.050722s, 19.715/s)
+[Sun Apr 19 00:15:58 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:16:17 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:16:17 2015] [debug] GET "/article/vglZjKdAhPPnjiYwTqspJw"
+[Sun Apr 19 00:16:17 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 19 00:16:17 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 19 00:16:17 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 19 00:16:17 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 19 00:16:17 2015] [debug] 404 Not Found (0.022733s, 43.989/s)
+[Sun Apr 19 00:16:27 2015] [debug] GET "/"
+[Sun Apr 19 00:16:27 2015] [debug] Routing to controller "Slug::Controller::Article" and action "articles"
+[Sun Apr 19 00:16:27 2015] [debug] 200 OK (0.045567s, 21.946/s)
+[Sun Apr 19 00:16:59 2015] [debug] GET "/article"
+[Sun Apr 19 00:16:59 2015] [debug] Routing to controller "Slug::Controller::Article" and action "article"
+[Sun Apr 19 00:16:59 2015] [error] Can't call method "id" on unblessed reference at lib/Slug/Model/FileSystem.pm line 70.
+
+[Sun Apr 19 00:16:59 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Apr 19 00:16:59 2015] [debug] Template "exception.html.ep" not found
+[Sun Apr 19 00:16:59 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 19 00:16:59 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 19 00:16:59 2015] [debug] 500 Internal Server Error (0.027422s, 36.467/s)
+[Sun Apr 19 00:17:45 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:17:52 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:17:54 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:17:56 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:17:58 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:18:42 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:18:44 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:18:46 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:18:48 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:18:50 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:19:03 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:19:05 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:19:05 2015] [debug] GET "/article"
+[Sun Apr 19 00:19:05 2015] [debug] Routing to controller "Slug::Controller::Article" and action "article"
+[Sun Apr 19 00:19:05 2015] [debug] 200 OK (0.027451s, 36.429/s)
+[Sun Apr 19 00:20:13 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:20:18 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:20:18 2015] [debug] GET "/article"
+[Sun Apr 19 00:20:18 2015] [debug] Routing to controller "Slug::Controller::Article" and action "article"
+[Sun Apr 19 00:20:18 2015] [debug] 200 OK (0.025566s, 39.114/s)
+[Sun Apr 19 00:20:30 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:20:32 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:20:37 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:20:38 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:20:38 2015] [debug] GET "/article"
+[Sun Apr 19 00:20:38 2015] [debug] Routing to controller "Slug::Controller::Article" and action "article"
+[Sun Apr 19 00:20:39 2015] [debug] 200 OK (0.024962s, 40.061/s)
+[Sun Apr 19 00:20:59 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:21:01 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:21:41 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:21:45 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:21:49 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:21:49 2015] [debug] GET "/article"
+[Sun Apr 19 00:21:49 2015] [debug] Routing to controller "Slug::Controller::Article" and action "article"
+[Sun Apr 19 00:21:51 2015] [debug] 200 OK (1.425692s, 0.701/s)
+[Sun Apr 19 00:22:46 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:22:51 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:23:07 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:23:47 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:23:47 2015] [debug] GET "/article/R6u1mv2lya+MYM12iYAGQg"
+[Sun Apr 19 00:23:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 19 00:23:47 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 19 00:23:47 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 19 00:23:47 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 19 00:23:48 2015] [debug] 404 Not Found (0.022220s, 45.005/s)
+[Sun Apr 19 00:24:06 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:24:10 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:24:12 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:24:12 2015] [debug] GET "/article/R6u1mv2lya+MYM12iYAGQg"
+[Sun Apr 19 00:24:12 2015] [debug] Routing to controller "Slug::Controller::Article" and action "article"
+[Sun Apr 19 00:24:13 2015] [debug] 200 OK (1.408403s, 0.710/s)
+[Sun Apr 19 00:24:33 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:24:49 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:26:17 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:26:20 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:26:20 2015] [debug] GET "/article/R6u1mv2lya+MYM12iYAGQg"
+[Sun Apr 19 00:26:20 2015] [debug] Routing to controller "Slug::Controller::Article" and action "article"
+[Sun Apr 19 00:26:21 2015] [debug] 200 OK (1.472656s, 0.679/s)
+[Sun Apr 19 00:27:31 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:27:32 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:27:32 2015] [debug] GET "/article/R6u1mv2lya+MYM12iYAGQg"
+[Sun Apr 19 00:27:32 2015] [debug] Routing to controller "Slug::Controller::Article" and action "article"
+[Sun Apr 19 00:27:34 2015] [debug] 200 OK (1.409709s, 0.709/s)
+[Sun Apr 19 00:29:04 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:29:07 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:29:07 2015] [debug] GET "/article/R6u1mv2lya+MYM12iYAGQg"
+[Sun Apr 19 00:29:07 2015] [debug] Routing to controller "Slug::Controller::Article" and action "article"
+[Sun Apr 19 00:29:08 2015] [debug] 200 OK (1.391937s, 0.718/s)
+[Sun Apr 19 00:30:46 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:30:48 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:32:07 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:32:16 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:32:20 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:32:30 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:32:30 2015] [debug] GET "/article/R6u1mv2lya+MYM12iYAGQg"
+[Sun Apr 19 00:32:30 2015] [error] Global symbol "$id" requires explicit package name at lib/Slug/Controller/Article.pm line 11.
+Compilation failed in require at (eval 48) line 1.
+
+[Sun Apr 19 00:32:30 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Apr 19 00:32:30 2015] [debug] Template "exception.html.ep" not found
+[Sun Apr 19 00:32:30 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 19 00:32:30 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 19 00:32:30 2015] [debug] 500 Internal Server Error (0.024113s, 41.471/s)
+[Sun Apr 19 00:32:53 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:32:59 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:32:59 2015] [debug] GET "/article/R6u1mv2lya+MYM12iYAGQg"
+[Sun Apr 19 00:32:59 2015] [debug] Routing to controller "Slug::Controller::Article" and action "article"
+[Sun Apr 19 00:33:00 2015] [debug] 200 OK (1.420646s, 0.704/s)
+[Sun Apr 19 00:34:53 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:34:57 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 19 00:34:57 2015] [debug] GET "/article/R6u1mv2lya+MYM12iYAGQg"
+[Sun Apr 19 00:34:57 2015] [debug] Routing to controller "Slug::Controller::Article" and action "article"
+[Sun Apr 19 00:34:58 2015] [debug] 200 OK (1.411137s, 0.709/s)
+[Sun Apr 19 00:35:32 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"
+[Sun Apr 19 00:35:41 2015] [debug] Reading configuration file "/home/dfarrell/Projects/slug/slug.conf"

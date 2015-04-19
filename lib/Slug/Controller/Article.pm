@@ -1,14 +1,14 @@
 package Slug::Controller::Article;
 use Mojo::Base 'Mojolicious::Controller';
-use Slug::Model::FileSystem;
-
 
 sub articles {
   my $self = shift;
-  my $model = Slug::Model::FileSystem->new('test-corpus');
+  $self->render(json => $self->app->model->articles);
+}
 
-  $self->stash(articles => $model->articles);
-  $self->render(template => 'articles', format => 'html', handler => 'ep');
+sub article {
+  my ($self) = @_;
+  $self->render(json => $self->app->model->article($self->stash('id')));
 }
 
 1;
