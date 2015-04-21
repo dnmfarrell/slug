@@ -1,9 +1,9 @@
 package Slug::Controller::Article;
 use Mojo::Base 'Mojolicious::Controller';
 
-sub articles {
+sub article_headers {
   my $self = shift;
-  $self->render(json => $self->app->model->articles);
+  $self->render(json => $self->app->model->article_headers);
 }
 
 sub article {

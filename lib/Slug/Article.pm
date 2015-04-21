@@ -3,7 +3,10 @@ use strict;
 use warnings;
 use base qw(Class::Accessor);
 
-Slug::Article->mk_accessors(qw/id title publish_date updated cover_image_url body authors subtitle abstract tags/);
+Slug::Article->mk_accessors(qw/header body/);
+
+#use overload 
+#  '""' => 'TO_JSON';
 
 use Data::Structure::Util 'unbless';
 use Mojo::JSON 'encode_json';

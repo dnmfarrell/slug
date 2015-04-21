@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use Role::Tiny;
 
-requires qw/articles article/;
+requires qw/article_headers article/;
 
 =head1 NAME
 
@@ -19,9 +19,9 @@ Slug::Model is just a role that defines the interface that any Slug::Model shoul
 
 Returns a L<Slug::Article> object
 
-=item * articles
+=item * article_headers
 
-Returns an arrayref of all L<Slug::Article> objects
+Returns an arrayref of all L<Slug::Article::Header> objects
 
 =back
 

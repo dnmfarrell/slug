@@ -18,7 +18,7 @@ sub startup {
   my $r = $self->routes;
 
   # Normal route to controller
-  $r->get('/')->to('article#articles');
+  $r->get('/')->to('article#article_headers');
   $r->get('/article/:id')->to('article#article');
 }
 
